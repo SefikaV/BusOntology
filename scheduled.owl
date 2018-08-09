@@ -1,0 +1,467 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#"
+     xml:base="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:untitled-ontology-36="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#hasRoute -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#hasRoute">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#Service"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#Route"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#hasService -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#hasService">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#ScheduledStop"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#Service"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#hasStop -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#hasStop">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#ScheduledStop"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#Stop"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#nextStop -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#nextStop">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#ScheduledStop"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#ScheduledStop"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#arrivalTime -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#arrivalTime"/>
+    
+
+
+    <!-- http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#departureTime -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#departureTime"/>
+    
+
+
+    <!-- http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#distance -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#distance"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#Route -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#Route"/>
+    
+
+
+    <!-- http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#ScheduledStop -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#ScheduledStop"/>
+    
+
+
+    <!-- http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#Service -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#Service"/>
+    
+
+
+    <!-- http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#Stop -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#Stop"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#AirportParkwayStation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#AirportParkwayStation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#Stop"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#CentralStation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#CentralStation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#Stop"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#GeneralHospital -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#GeneralHospital">
+        <rdf:type rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#Stop"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#HighfieldInterchange -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#HighfieldInterchange">
+        <rdf:type rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#Stop"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#Nocs -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#Nocs">
+        <rdf:type rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#Stop"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U1A -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U1A">
+        <rdf:type rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#Route"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U1A0620 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U1A0620">
+        <rdf:type rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#Service"/>
+        <hasRoute rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U1A"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U1A0620AirportParkwayStation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U1A0620AirportParkwayStation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#ScheduledStop"/>
+        <hasRoute rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U1A"/>
+        <hasService rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U1A0620"/>
+        <hasStop rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#AirportParkwayStation"/>
+        <arrivalTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-09T06:59:00</arrivalTime>
+        <distance rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.8</distance>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U1A0620CentralStation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U1A0620CentralStation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#ScheduledStop"/>
+        <hasRoute rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U1A"/>
+        <hasService rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U1A0620"/>
+        <hasStop rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#CentralStation"/>
+        <nextStop rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U1A0620HighfieldInterchange"/>
+        <arrivalTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-09T06:30:00</arrivalTime>
+        <distance rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.7</distance>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U1A0620HighfieldInterchange -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U1A0620HighfieldInterchange">
+        <rdf:type rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#ScheduledStop"/>
+        <hasRoute rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U1A"/>
+        <hasService rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U1A0620"/>
+        <hasStop rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#HighfieldInterchange"/>
+        <nextStop rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U1A0620AirportParkwayStation"/>
+        <arrivalTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-09T06:48:00</arrivalTime>
+        <distance rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.4</distance>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U1A0620Nocs -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U1A0620Nocs">
+        <rdf:type rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#ScheduledStop"/>
+        <hasRoute rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U1A"/>
+        <hasService rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U1A0620"/>
+        <hasStop rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#Nocs"/>
+        <nextStop rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U1A0620CentralStation"/>
+        <departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-09T06:20:00</departureTime>
+        <distance rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</distance>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U1C -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U1C">
+        <rdf:type rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#Route"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U1C0615 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U1C0615">
+        <rdf:type rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#Service"/>
+        <hasRoute rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U1C"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U1C0615AirportParkwayStation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U1C0615AirportParkwayStation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#ScheduledStop"/>
+        <hasRoute rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U1C"/>
+        <hasService rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U1C0615"/>
+        <hasStop rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#AirportParkwayStation"/>
+        <nextStop rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U1C0615HighfieldInterchange"/>
+        <departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-09T06:15:00</departureTime>
+        <distance rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</distance>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U1C0615CentralStation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U1C0615CentralStation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#ScheduledStop"/>
+        <hasRoute rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U1C"/>
+        <hasService rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U1C0615"/>
+        <hasStop rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#CentralStation"/>
+        <nextStop rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U1C0615Nocs"/>
+        <arrivalTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-09T06:50:00</arrivalTime>
+        <distance rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.1</distance>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U1C0615HighfieldInterchange -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U1C0615HighfieldInterchange">
+        <rdf:type rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#ScheduledStop"/>
+        <hasRoute rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U1C"/>
+        <hasService rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U1C0615"/>
+        <hasStop rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#HighfieldInterchange"/>
+        <nextStop rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U1C0615CentralStation"/>
+        <arrivalTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-09T06:30:00</arrivalTime>
+        <distance rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.4</distance>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U1C0615Nocs -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U1C0615Nocs">
+        <rdf:type rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#ScheduledStop"/>
+        <hasRoute rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U1C"/>
+        <hasService rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U1C0615"/>
+        <hasStop rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#Nocs"/>
+        <arrivalTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-09T07:00:00</arrivalTime>
+        <distance rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.8</distance>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U6C -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U6C">
+        <rdf:type rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#Route"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U6C0645 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U6C0645">
+        <rdf:type rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#Service"/>
+        <hasRoute rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U6C"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U6C0645GeneralHospital -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U6C0645GeneralHospital">
+        <rdf:type rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#ScheduledStop"/>
+        <hasRoute rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U6C"/>
+        <hasService rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U6C0645"/>
+        <hasStop rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#GeneralHospital"/>
+        <nextStop rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U6C0645HighfieldInterchange"/>
+        <departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-09T06:45:00</departureTime>
+        <distance rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</distance>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U6C0645HighfieldInterchange -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U6C0645HighfieldInterchange">
+        <rdf:type rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#ScheduledStop"/>
+        <hasRoute rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U6C"/>
+        <hasService rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U6C0645"/>
+        <hasStop rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#HighfieldInterchange"/>
+        <nextStop rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U6C0645WestQuay"/>
+        <arrivalTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-09T07:00:00</arrivalTime>
+        <distance rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.2</distance>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U6C0645WestQuay -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U6C0645WestQuay">
+        <rdf:type rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#ScheduledStop"/>
+        <hasRoute rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U6C"/>
+        <hasService rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U6C0645"/>
+        <hasStop rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#WestQuay"/>
+        <arrivalTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-09T07:26:00</arrivalTime>
+        <distance rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.6</distance>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U6H -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U6H">
+        <rdf:type rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#Route"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U6H0626 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U6H0626">
+        <rdf:type rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#Service"/>
+        <hasRoute rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U6H"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U6H0626GeneralHospital -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U6H0626GeneralHospital">
+        <rdf:type rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#ScheduledStop"/>
+        <hasRoute rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U6H"/>
+        <hasService rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U6H0626"/>
+        <hasStop rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#GeneralHospital"/>
+        <arrivalTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-09T07:10:00</arrivalTime>
+        <distance rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.6</distance>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U6H0626HighfieldInterchange -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U6H0626HighfieldInterchange">
+        <rdf:type rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#ScheduledStop"/>
+        <hasRoute rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U6H"/>
+        <hasService rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U6H0626"/>
+        <hasStop rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#HighfieldInterchange"/>
+        <nextStop rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U6H0626GeneralHospital"/>
+        <arrivalTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-09T06:53:00</arrivalTime>
+        <distance rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">4.4</distance>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U6H0626WestQuay -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U6H0626WestQuay">
+        <rdf:type rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#ScheduledStop"/>
+        <hasRoute rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U6H"/>
+        <hasService rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U6H0626"/>
+        <hasStop rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#WestQuay"/>
+        <nextStop rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#U6H0626HighfieldInterchange"/>
+        <departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-09T06:26:00</departureTime>
+        <distance rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</distance>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#WestQuay -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#WestQuay">
+        <rdf:type rdf:resource="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#Stop"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#Route"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#ScheduledStop"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#Service"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/missvarlioglu/ontologies/2018/6/untitled-ontology-36#Stop"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
+
